@@ -1,0 +1,1 @@
+# Test package for coffee multi-agent system

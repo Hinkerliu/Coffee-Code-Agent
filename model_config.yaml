@@ -1,0 +1,42 @@
+# AutoGen Model Configuration for Coffee Multi-Agent System
+# Copy this to model_config.yaml and configure your preferred model provider
+
+# DeepSeek Configuration (using OpenAI-compatible API)
+# Official documentation: https://api-docs.deepseek.com/
+provider: autogen_ext.models.openai.OpenAIChatCompletionClient
+config:
+  model: deepseek-chat
+  api_key: sk-5b51498e0023447b951d9e54970d40a5
+  base_url: https://api.deepseek.com  # Official base_url (can also use https://api.deepseek.com/v1)
+  temperature: 0.7
+  max_tokens: 4000
+  top_p: 1.0
+  frequency_penalty: 0.0
+  presence_penalty: 0.0
+  model_info:
+    family: openai
+    vision: false
+    function_calling: true
+    json_output: true
+    structured_output: true
+
+# # Azure OpenAI Configuration (Alternative)
+# provider: azure_openai
+# config:
+#   model: gpt-4
+#   azure_endpoint: ${AZURE_OPENAI_ENDPOINT}
+#   api_key: ${AZURE_OPENAI_API_KEY}
+#   azure_deployment: ${AZURE_OPENAI_DEPLOYMENT}
+#   api_version: ${AZURE_OPENAI_API_VERSION}
+#   temperature: 0.7
+#   max_tokens: 4000
+#   top_p: 1.0
+
+# # Local Model Configuration (Alternative)
+# provider: openai
+# config:
+#   model: local-model-name
+#   base_url: http://localhost:1234/v1
+#   api_key: not-needed-for-local
+#   temperature: 0.7
+#   max_tokens: 4000

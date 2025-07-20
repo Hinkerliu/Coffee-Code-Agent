@@ -1,0 +1,1 @@
+# Workflow coordination package for coffee multi-agent system

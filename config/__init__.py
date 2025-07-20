@@ -1,0 +1,1 @@
+# Configuration package for coffee multi-agent system
