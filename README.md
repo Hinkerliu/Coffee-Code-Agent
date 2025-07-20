@@ -48,7 +48,7 @@ Coffee-Code-Agent/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Hinkerliu/Coffee-Code-Agent.git
 cd Coffee-Code-Agent
 
 # Install dependencies

@@ -48,7 +48,7 @@ Coffee-Code-Agent/
 
 ```bash
 # 克隆仓库
-git clone <你的仓库URL>
+git clone https://github.com/Hinkerliu/Coffee-Code-Agent.git
 cd Coffee-Code-Agent
 
 # 安装依赖
