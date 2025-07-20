@@ -21,7 +21,7 @@ A comprehensive AI-powered coffee brewing code generation system built with Auto
 ## 🏗️ Architecture
 
 ```
-coffee-multi-agent-system/
+Coffee-Code-Agent/
 ├── agents/                 # Specialized coffee agents
 │   ├── coffee_generator.py     # CoffeeCodeGeneratorAgent
 │   ├── quality_analyzer.py     # CodeQualityAnalyzerAgent
@@ -49,7 +49,7 @@ coffee-multi-agent-system/
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd coffee-multi-agent-system
+cd Coffee-Code-Agent
 
 # Install dependencies
 pip install -r requirements.txt
@@ -489,9 +489,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-org/coffee-multi-agent/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/coffee-multi-agent/discussions)
-- **Documentation**: [Wiki](https://github.com/your-org/coffee-multi-agent/wiki)
+- **Issues**: [GitHub Issues](https://github.com/Hinkerliu/Coffee-Code-Agent/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Hinkerliu/Coffee-Code-Agent/discussions)
+- **Documentation**: [Wiki](https://github.com/Hinkerliu/Coffee-Code-Agent/wiki)
 
 ---
 

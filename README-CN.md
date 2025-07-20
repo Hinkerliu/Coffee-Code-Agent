@@ -21,7 +21,7 @@
 ## 🏗️ 架构
 
 ```
-coffee-multi-agent-system/
+Coffee-Code-Agent/
 ├── agents/                 # 专用咖啡智能体
 │   ├── coffee_generator.py     # CoffeeCodeGeneratorAgent
 │   ├── quality_analyzer.py     # CodeQualityAnalyzerAgent
@@ -49,7 +49,7 @@ coffee-multi-agent-system/
 ```bash
 # 克隆仓库
 git clone <你的仓库URL>
-cd coffee-multi-agent-system
+cd Coffee-Code-Agent
 
 # 安装依赖
 pip install -r requirements.txt
@@ -482,9 +482,9 @@ python -m interfaces.cli
 
 ## 🤝 支持
 
-- **问题**：[GitHub Issues](https://github.com/your-org/coffee-multi-agent/issues)
-- **讨论**：[GitHub Discussions](https://github.com/your-org/coffee-multi-agent/discussions)
-- **文档**：[Wiki](https://github.com/your-org/coffee-multi-agent/wiki)
+- **问题**：[GitHub Issues](https://github.com/Hinkerliu/Coffee-Code-Agent/issues)
+- **讨论**：[GitHub Discussions](https://github.com/Hinkerliu/Coffee-Code-Agent/discussions)
+- **文档**：[Wiki](https://github.com/Hinkerliu/Coffee-Code-Agent/wiki)
 
 ---
 
